@@ -165,7 +165,7 @@
 - telegram
 
 
-## installation: 
+## Rice : 
 ```
  git clone https://github.com/BIBJAW/fedora_stuffs && chmod +x ~/fedora_stuffs/fedora_configs/i3/scripts/powermenu && chmod +x ~/fedora_stuffs/fedora_configs/polybar/launch.sh
  ```
