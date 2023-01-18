@@ -142,7 +142,6 @@
 
 - mpv
 
-- telegram-desktop
 
 - gnome-disk-utility
 
@@ -161,6 +160,8 @@
 - discord
 
 - slack
+
+- telegram
 
 
 
