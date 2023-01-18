@@ -7,6 +7,7 @@
 ```
  git clone https://github.com/BIBJAW/fedora_stuffs && chmod +x ~/fedora_stuffs/fedora_configs/i3/scripts/powermenu && chmod +x ~/fedora_stuffs/fedora_configs/polybar/launch.sh
  ```
+ #### Original Rice: https://github.com/BIBJAW/Final_Rice
 
 ## After the base :
 
