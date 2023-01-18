@@ -1,5 +1,7 @@
 # My Fedora Installation
 
+### Screenshot
+![SS](https://github.com/BIBJAW/fedora_stuffs/blob/main/Fedora.png)
 
 ## After the base :
 
