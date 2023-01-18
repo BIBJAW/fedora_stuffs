@@ -1,7 +1,6 @@
 # My Fedora Installation
 
 
-
 ## After the base :
 
 **1. Drivers:**
@@ -164,8 +163,10 @@
 - telegram
 
 
-
-# 
+## installation: 
+```
+ git clone https://github.com/BIBJAW/fedora_stuffs && chmod +x ~/fedora_stuffs/fedora_configs/i3/scripts/powermenu && chmod +x ~/fedora_stuffs/fedora_configs/polybar/launch.sh
+ ```
 
 
 
