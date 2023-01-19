@@ -95,6 +95,14 @@
 
 - network-manager-applet
 
+- NetworkManager-wifi
+
+- iw
+
+- wireless-regdb
+
+- wpa_supplicant
+
 - xset
 
 - xdg-utils
