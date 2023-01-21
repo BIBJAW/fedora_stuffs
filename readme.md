@@ -164,13 +164,17 @@
 
 - libgnome-keyring
 
-**4. Flatpaks:**
-
 - vscode
 
 - libreoffice
 
-- marktext
+- libreoffice-gtk3
+
+- ghostwriter
+
+- gimp
+
+- simplescreenrecorder
 
 - discord
 
