@@ -170,7 +170,7 @@
 
 - libreoffice-gtk3
 
-- ghostwriter
+- marktext
 
 - gimp
 
