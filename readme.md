@@ -143,6 +143,8 @@
 
 - mingw64-gcc
 
+- gcc-c++
+
 - java-latest-openjdk
 
 **3. GUI Apps:**
