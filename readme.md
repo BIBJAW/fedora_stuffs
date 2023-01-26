@@ -139,7 +139,7 @@
 
 - pavucontrol
 
-- cmus
+- musikcube
 
 - mingw64-gcc
 
