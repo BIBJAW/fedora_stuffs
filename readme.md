@@ -186,7 +186,7 @@
 
 
 ### Post installation :
-** RPM Fusion: **
+**RPM Fusion:**
 ``` 
 sudo dnf install \
   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
@@ -195,7 +195,7 @@ sudo dnf install \
   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
   ```
   
-  ** Multimedia Codecs **
+  **Multimedia Codecs**
   ```
 sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
 
@@ -209,7 +209,7 @@ sudo dnf group upgrade --with-optional Multimedia
   
   ```
 
-** MS Fonts **
+**MS Fonts**
 
 ```
 sudo dnf upgrade --refresh -y
