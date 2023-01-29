@@ -185,9 +185,39 @@
 - telegram
 
 
+### Post installation :
+** RPM Fusion: **
+``` 
+sudo dnf install \
+  https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+  
+sudo dnf install \
+  https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+  ```
+  
+  ** Multimedia Codecs **
+  ```
+sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
 
+sudo dnf install lame\* --exclude=lame-devel
 
+sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
 
+sudo dnf groupupdate sound-and-video
+
+sudo dnf group upgrade --with-optional Multimedia
+  
+  ```
+
+** MS Fonts **
+
+```
+sudo dnf upgrade --refresh -y
+
+sudo dnf install curl cabextract xorg-x11-font-utils fontconfig -y
+
+sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+```
 
 
 
