@@ -8,7 +8,14 @@
  git clone https://github.com/BIBJAW/fedora_stuffs && chmod +x ~/fedora_stuffs/fedora_configs/i3/scripts/powermenu && chmod +x ~/fedora_stuffs/fedora_configs/polybar/launch.sh
  ```
  #### Original Rice: https://github.com/BIBJAW/Final_Rice
+## DNF Conf
 
+```
+max_parallel_downloads=10
+fastestmirror=True
+defaultyes=True
+install_weak_deps=False
+```
 ## After the base :
 
 **1. Drivers:**
