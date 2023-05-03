@@ -20,13 +20,13 @@
     font:                              "Roboto Condensed Bold 11";
 }
 window {
-    width:                             25%;
+    width:                             450px;
     location:                          center;
     anchor:                            center;
     //transparency:                    "screenshot";
     padding:                           0px;
-    border:                            2px;
-    border-radius:                     0px;
+    border:                            5px;
+    border-radius:                     2px;
     border-color:                      @dark;
     background-color:                  @dark;
     spacing:                           0;
@@ -68,11 +68,11 @@ entry,prompt,case-indicator {
 }
 
 prompt {
-    margin:                            0px 0.3em 0em 0em ;
+    margin:                            0px 0.5em 0em 0em ;
 }
 
 listview {
-    padding:                           5px;
+    padding:                           3px;
 //    border-radius:                   0px 0px 15px 15px;
     border-color:                      @gray-dark;
     border:                            0px 2px 2px 2px;
